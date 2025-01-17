@@ -59,3 +59,23 @@
 .hover-button:hover{
     background-color: rgb(100, 210, 220);
 }
+/* sale */
+.sale-container{
+    background-color: #e0ece3;
+}
+.sub-text{
+    font-size: 30px;
+    margin-left: 180px;
+}
+.main-text{
+    font-size: 80px;
+    margin-left: 200px;
+}
+.sale-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 180px;
+    width: 250px;
+    height: 50px;
+}
