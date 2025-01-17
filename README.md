@@ -1,6 +1,6 @@
 # ministore
 
-This is the source code for [MiniStore](https://sruthips18.github.io/ministore/), a responsive e-commerce template.
+This is the source code for MiniStore, a responsive e-commerce template.
 
 ## Hosted Link
 [Visit MiniStore](https://sruthips18.github.io/ministore/)
