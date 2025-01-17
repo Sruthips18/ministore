@@ -1,9 +1,17 @@
 # ministore
 
-About this template
+This is the source code for [MiniStore](https://sruthips18.github.io/ministore/), a responsive e-commerce template.
 
-Hosted site Link : https://sruthips18.github.io/ministore/ 
+## Hosted Link
+[Visit MiniStore](https://sruthips18.github.io/ministore/)
 
-Figma link : https://www.figma.com/design/AUKDv3UMNQD2H1eJ0jPYMn/ministore?node-id=0-1&t=QCyKlbKELRY6i8TK-1
+## Figma Design
+[MiniStore Figma File](https://www.figma.com/design/AUKDv3UMNQD2H1eJ0jPYMn/ministore?node-id=0-1&t=QCyKlbKELRY6i8TK-1)
 
-Reference template link : https://themewagon.github.io/MiniStore/
+## References
+- [Original MiniStore Template](https://themewagon.github.io/MiniStore/)
+
+## Features
+- Responsive design
+- Organized code structure
+- Hosted on GitHub Pages
