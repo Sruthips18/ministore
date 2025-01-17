@@ -9,21 +9,53 @@
 /* home */
 .home-section{
     background-color: #e0ece3;
-    height:600px;
+    height:550px;
 }
 .home-text{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 55px;
     margin-left: 150px;
-    padding: 70px;
+    margin-top: 50px;
 }
 .banner_img{
-    /* margin-bottom: 400px; */
-    height: 500px;
+    height: 550px;
+    width: 600px;
     margin-left: 200px;
 }
 .banner-btn{
     margin-left: 150px;
     width: 300px;
     height: 60px;
+}
+/* products */
+.headings{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-texts{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-img{
+    height: 350px;
+}
+.image-container .hover-button {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(50%, 40%);
+    display: none; /* Initially hidden */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container:hover .hover-button {
+    display: block; /* Show button on hover */
+}
+.hover-button:hover{
+    background-color: rgb(100, 210, 220);
 }
