@@ -1,4 +1,7 @@
 /* navbar */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 .nav-item{
     padding-left: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -7,21 +10,22 @@
     padding-right: 30px;
 }
 /* home */
-.home-section{
-    background-color: #e0ece3;
-    height:550px;
+.carousel-home{
+    background-color:#e0ece3;
 }
 .home-text{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 55px;
-    margin-left: 150px;
-    margin-top: 50px;
+    font-size: 2rem;
+    margin-left: 40%;
+    margin-top: 20%;
 }
-.banner_img{
-    height: 550px;
-    width: 600px;
-    margin-left: 200px;
+.banner_img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: 20%;
 }
+
 .banner-btn{
     margin-left: 150px;
     width: 300px;
@@ -117,3 +121,5 @@
     border: none;
 }
 /* footer */
+
+

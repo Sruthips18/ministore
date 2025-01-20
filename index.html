@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- ------------------------------navbar section start --------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky" style="top: 0; z-index: 1200;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky p-3" style="top: 0; z-index: 1200;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +39,25 @@
                 <a class="nav-link" href="#watches">WATCHES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SALE</a>
+                <a class="nav-link" href="#sale">SALE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOGS</a>
+                <a class="nav-link" href="#blogs">BLOGS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PAGES</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                  <li><a class="dropdown-item" href="#">BLOGS</a></li>
+                  <li><a class="dropdown-item" href="#">SHOP</a></li>
+                  <li><a class="dropdown-item" href="#">CART</a></li>
+                  <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                  <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                  <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                  <li><a class="dropdown-item" href="#contact">CONTACT</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -58,33 +70,36 @@
     <!-- ------------------------------Home Start------------------------------------------- -->
     <section id="home">
       <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="container-fluid home-section">
+        <div class="carousel-inner carousel-home">
+          <div class="container-fluid home-page">
             <div class="carousel-item active">
-               <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-3 col-12 text-center">
                   <p class="home-text">YOUR PRODUCTS<br> ARE GREAT.</p>
                   <button class="btn btn-dark banner-btn">SHOP PRODUCT</button>
                 </div>
-                <div class="col-lg-8  col-md-6 col-12">
-                 <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
+                <div class="col-lg-8 col-md-6 col-sm-3 col-12 text-center">
+                  <div class="image">
+                    <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
+                  </div>
                 </div>
-               </div>
+              </div>
             </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-12">
-                <p class="home-text">TECHNOLOGY HACK<br> YOU WON'T GET.</p>
-                <button class="btn btn-dark banner-btn">SHOP PRODUCT</button>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-3 col-12 text-center">
+                  <p class="home-text">TECHNOLOGY HACK<br> YOU WON'T GET.</p>
+                  <button class="btn btn-dark banner-btn">SHOP PRODUCT</button>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-3 col-12 text-center">
+                <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
+                </div>
               </div>
-              <div class="col-lg-8  col-md-6 col-12">
-               <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
-              </div>
-             </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> 
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -268,17 +283,17 @@
     </section>
     <!-- ------------------------------watches ends------------------------------------------- -->
     <!-- ------------------------------sale starts-------------------------------------------- -->
-    <section>
-      <div class="container-fluid sale-container mt-5">
+    <section id="sale">
+      <div class="container-fluid sale-container mt-5 mx-auto">
         <div class="row">
-          <div class="col-lg-4 col-sm-6 col-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-8 col-12 mt-5">
             <div class="sale-text">
               <p class="sub-text  d-flex justify-content-center">10% OFF</p>
               <p class="main-text d-flex justify-content-center">NEW<br> YEAR <br>SALE</p>
               <button class="sale-btn">SHOP NOW</button>
             </div>
           </div>
-          <div class="col-lg-8 col-sm-6 col-12">
+          <div class="col-lg-8 col-md-6 col-sm-8 col-12">
             <img src="images/sale/single-image1.png" alt="">
           </div>
         </div>
@@ -367,7 +382,7 @@
      </section>
     <!-- ------------------------------blogs 2nd section ends------------------------------ -->
     <!-- ----------------------------blog 3rd section starts------------------------------- -->
-     <section>
+     <section id="blogs">
       <div class="container bg-dark mt-5">
         <div class="row">
           <div class="col-lg-6 col-md-4 col-sm-8 col-12">
@@ -387,7 +402,7 @@
      </section>
     <!-- ----------------------------blog 3rd section ends------------------------------- -->
      <!-- ----------------------------blog insta section starts------------------------------- -->
-    <section>
+    <section id="blogs">
       <div class="container mt-5">
         <h2 class="d-flex justify-content-center">SHOP OUR INSTA</h2>
         <div class="row">
@@ -427,7 +442,7 @@
     <!-- ------------------insta sections ends--------------------------- -->
 
     <!-- ---------------------------footer starts------------------------------- -->
-    <section>
+    <section id="contact">
       <div class="container container-footer mt-5">
         <div class="row">
           <div class="col-lg-3  col-md-4 col-sm-6 col-12">
