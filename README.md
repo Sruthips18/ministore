@@ -2,7 +2,7 @@
 
 This is the source code for MiniStore, a responsive e-commerce template.
 
-## Hosted Link
+## Hosted Github Page
 [Visit MiniStore](https://sruthips18.github.io/ministore/)
 
 ## Figma Design
