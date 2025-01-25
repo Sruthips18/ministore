@@ -18,14 +18,14 @@
 </head>
 <body>
     <!-- ------------------------------navbar section start --------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky p-3" style="top: 0; z-index: 1200;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky p-3 mx-100" style="top: 0; z-index: 1200;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#home">HOME</a>
               </li>
@@ -68,17 +68,16 @@
       </nav>
     <!-- ------------------------------navbar section ends --------------------------------- -->
     <!-- ------------------------------Home Start------------------------------------------- -->
-    <section id="home">
+    <div class="container-fluid home-page mx-auto">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner carousel-home">
-          <div class="container-fluid home-page">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-3 col-12 text-center">
-                  <p class="home-text">YOUR PRODUCTS<br> ARE GREAT.</p>
+                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                  <p class="home-text pb-3">YOUR<br> PRODUCTS<br> ARE GREAT.</p>
                   <button class="btn btn-dark banner-btn">SHOP PRODUCT</button>
                 </div>
-                <div class="col-lg-8 col-md-6 col-sm-3 col-12 text-center">
+                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
                   <div class="image">
                     <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
                   </div>
@@ -87,18 +86,17 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-3 col-12 text-center">
-                  <p class="home-text">TECHNOLOGY HACK<br> YOU WON'T GET.</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                  <p class="home-text pb-3">TECHNOLOGY HACK YOU<br> WON'T GET.</p>
                   <button class="btn btn-dark banner-btn">SHOP PRODUCT</button>
                 </div>
-                <div class="col-lg-8 col-md-6 col-sm-3 col-12 text-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
                 <img src="images/banner-image.png" alt="" class="img-fluid banner_img">
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -107,414 +105,407 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </section>  
+    </div>
     <!-- ------------------------------Home ends------------------------------------------- -->
-    <!-- ------------------------------Service ends------------------------------------------- -->
-    <section>
-      <div class="container mt-5" id="service">
-        <div class="row">
-          <div class="col-lg-3 mt-5">
-            <div class="card border-0">
-              <div class="card-title">
-                <p><i class="fa-solid fa-cart-shopping"></i>FREE DELIVERY</p>
-                <div class="card-text">
-                  <p class="text-secondary">It is important to understand 
-                    that fat is the most importantthing in life.</p>
-                </div>
+     <!-- ------------------------------Service ends------------------------------------------- -->
+     <div class="container mt-5 pb-5" id="service">
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+          <div class="card border-0">
+            <div class="card-title">
+              <p><i class="fa-solid fa-cart-shopping"></i>FREE DELIVERY</p>
+              <div class="card-text">
+                <p class="text-secondary">It is important to understand 
+                  that fat is the most importantthing in life.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mt-5">
-            <div class="card border-0">
-              <div class="card-title">
-                <p><img src="images/service-icon/quality-assurance-icon.png" height="30" alt="">QUALITY GUARANTEE</p>
-                <div class="card-text">
-                  <p class="text-secondary">The pain should be a lot more ore ipsu mcons ectetur fat eletur.</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+          <div class="card border-0">
+            <div class="card-title">
+              <p><img src="images/service-icon/quality-assurance-icon.png" height="30" alt="">QUALITY GUARANTEE</p>
+              <div class="card-text">
+                <p class="text-secondary">The pain should be a lot more ore ipsu mcons ectetur fat eletur.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mt-5">
-            <div class="card border-0">
-              <div class="card-title">
-                <p><img src="images/service-icon/offer-icon.png" height="30" alt="">DAILY OFFERS</p>
-                <div class="card-text">
-                  <p class="text-secondary">It is very difficult to get rid of fat.</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+          <div class="card border-0">
+            <div class="card-title">
+              <p><img src="images/service-icon/offer-icon.png" height="30" alt="">DAILY OFFERS</p>
+              <div class="card-text">
+                <p class="text-secondary">It is very difficult to get rid of fat.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mt-5">
-            <div class="card border-0">
-              <div class="card-title">
-                <p><img src="images/service-icon/check.png" height="30" alt="">100% SECURE PAYMENT</p>
-                <div class="card-text">
-                  <p class="text-secondary">The problem of Lopsum is 
-                    that it is important, it will be 
-                    followed by the fat developer.</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 mt-5">
+          <div class="card border-0">
+            <div class="card-title">
+              <p><img src="images/service-icon/check.png" height="30" alt="">100% SECURE PAYMENT</p>
+              <div class="card-text">
+                <p class="text-secondary">The problem of Lopsum is 
+                  that it is important, it will be 
+                  followed by the fat developer.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ------------------------------Service ends------------------------------------------- -->
+    </div>
+  <!-- ------------------------------Service ends------------------------------------------- -->
     <!-- ------------------------------Products starts------------------------------------------- -->
-    <section>
-      <div class="container mt-5">
-        <div class="d-flex justify-content-between" id="mobile-products">
-        <P class="headings mb-3 mt-5">MOBILE PRODUCTS</P>
-        <p class="mt-3"><a href="#home" class="text-dark mt-5">GO TO SHOP</a></p>
+    <div class="container">
+      <div class="d-flex justify-content-between" id="mobile-products">
+      <P class="headings mb-3 mt-5">MOBILE PRODUCTS</P>
+      <p class="mt-3"><a href="#home" class="text-dark mt-5">GO TO SHOP</a></p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3  col-md-6 col-sm-12 col-12 ">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item1.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>IPHONE</p>
+              <p class="text-info">$980</p>
+            </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item1.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>IPHONE</p>
-                <p class="text-info">$980</p>
-              </div>
-              </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 ">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item2.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>IPHONE11</p>
+              <p class="text-info">$1100</p>
+            </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item2.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>IPHONE11</p>
-                <p class="text-info">$1100</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 ">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item3.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>IPHONE 8</p>
+              <p class="text-info">$780</p>
+            </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item3.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>IPHONE 8</p>
-                <p class="text-info">$780</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 ">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item4.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>IPHONE 13</p>
+              <p class="text-info">$1500</p>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item4.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>IPHONE 13</p>
-                <p class="text-info">$1500</p>
-              </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ------------------------------products ends------------------------------------------- -->
-
-     <!-- ------------------------------watches starts------------------------------------------- -->
-     <section id="watches">
-      <div class="container mt-5">
-        <div class="d-flex justify-content-between">
-        <P class="headings mb-3 mt-5">SMART WATCHES</P>
-        <p class="mt-3"><a href="#home" class="text-dark mt-5">GO TO SHOP</a></p>
+    </div>
+  <!-- ------------------------------products ends------------------------------------------- -->
+    <!-- ------------------------------watches starts------------------------------------------- -->
+    <div class="container mt-5" id="watches">
+      <div class="d-flex justify-content-between">
+      <P class="headings mb-3 mt-5">SMART WATCHES</P>
+      <p class="mt-3"><a href="#home" class="text-dark mt-5">GO TO SHOP</a></p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item6.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>PINK WATCH</p>
+              <p class="text-info">$870</p>
+            </div>
+            </div>
+          </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item6.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>PINK WATCH</p>
-                <p class="text-info">$870</p>
-              </div>
-              </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item7.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>HEAVY WATCH</p>
+              <p class="text-info">$680</p>
+            </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item7.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>HEAVY WATCH</p>
-                <p class="text-info">$680</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item8.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>SPOTTED WATCH</p>
+              <p class="text-info">$780</p>
+            </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item8.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>SPOTTED WATCH</p>
-                <p class="text-info">$780</p>
-              </div>
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card border-0" style="width: 10rem;">
+            <div class="image-container">
+              <img src="images/products/product-item9.jpg" alt="" class="product-img">
+              <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="card-text card-texts d-flex justify-content-between">
+              <p>BLACK WATCH</p>
+              <p class="text-info">$690</p>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="card border-0" style="width: 10rem;">
-              <div class="image-container">
-                <img src="images/products/product-item9.jpg" alt="" class="product-img">
-                <button class="hover-button">ADD TO CART<br><i class="fa-solid fa-cart-shopping"></i></button>
-              <div class="card-text card-texts d-flex justify-content-between">
-                <p>BLACK WATCH</p>
-                <p class="text-info">$690</p>
-              </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- ------------------------------watches ends------------------------------------------- -->
     <!-- ------------------------------sale starts-------------------------------------------- -->
-    <section id="sale">
-      <div class="container-fluid sale-container mt-5 mx-auto">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-8 col-12 mt-5">
+      <div class="container-fluid sale-container mt-5" id="sale">
+        <div class="row align-items-center mt-5">
+          <!-- Sale Text Section -->
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
             <div class="sale-text">
-              <p class="sub-text  d-flex justify-content-center">10% OFF</p>
-              <p class="main-text d-flex justify-content-center">NEW<br> YEAR <br>SALE</p>
+              <p class="sub-text">10% OFF</p>
+              <p class="main-text">NEW<br>YEAR<br>SALE</p>
               <button class="sale-btn">SHOP NOW</button>
             </div>
           </div>
-          <div class="col-lg-8 col-md-6 col-sm-8 col-12">
-            <img src="images/sale/single-image1.png" alt="">
+          <!-- Sale Image Section -->
+          <div class="col-lg-8 col-md-6 col-sm-12 text-center">
+            <img src="images/sale/single-image1.png" alt="Sale Image" class="img-fluid product-imgs">
           </div>
         </div>
       </div>
-    </section>
-    <!-- ------------------------------sale ends-------------------------------------------- -->
+    <!-- ------------------------------sale ends-------------------------------------------- -->  
     <!-- ------------------------------blogs starts-------------------------------------------- -->
-     <section id="blogs">
-       <div class="container mt-5">
-        <div class="d-flex justify-content-between">
-          <P class="headings mb-3">LATEST POSTS</P>
-          <p class="mt-3"><a href="#" class="text-dark">READ BLOG</a></p>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-8 col-sm-6 col-12">
-              <div class="card border-0" style="width: 14rem;">
-                <div class="image-container">
-                  <img src="images/blogs/post-item1.jpg" alt="" class="product-imgs">
-                <div class="card-text">
-                  <p class="text-secondary">Feb 22, 2023 - GADGETS</p>
-                  <p class="blog-text">GET SOME COOL GADGETS IN
-                    2023</p>
-                </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-8 col-sm-6 col-12">
-              <div class="card border-0" style="width: 14rem;">
-                <div class="image-container">
-                  <img src="images/blogs/post-item2.jpg" alt="" class="product-imgs">
-                <div class="card-text">
-                  <p class="text-secondary">Feb 25, 2023 - TECHNOLOGY</p>
-                  <p class="blog-text">TECHNOLOGY HACK YOU WON’T
-                    GET</p>
-                </div>
-                </div>
-              </div>
-            </div>
-           <div class="col-lg-4 col-md-8 col-sm-6 col-12">
-              <div class="card border-0" style="width: 14rem;">
-                <div class="image-container">
-                  <img src="images/blogs/insta-item5.jpg" alt="" class="product-imgs" width="350px">
-                <div class="card-text">
-                  <p class="text-secondary">Feb 22, 2023 - CAMERAS</p>
-                  <p class="blog-text">TOP 10 SMALL CAMERAS IN THE
-                    WORLD</p>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-     </section>
-     <!-- ----------------------------blog 2nd section starts----------------------------- -->
-     <section id="blogs">
-       <div class="container-fluid customer-section">
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                  <div class="carousel-cust">
-                    <img src="images/doublequtes.png" alt="" class="carousel-img" height="120px">
-                    <p class="carousel-text">"Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi".</p>
-                    <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    <p class="d-flex justify-content-center">EMMA CHAMBERLIN</p>
-                  </div>
-            </div>
-            <div class="carousel-item">
-                 <div class="carousel-cust">
-                    <img src="images/doublequtes.png" alt="" class="carousel-img" height="120px">
-                    <p class="carousel-text">"A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”.</p>
-                    <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
-                    <p class="d-flex justify-content-center">JENNIE ROSE</p>
-                  </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-       </div>
-     </section>
-    <!-- ------------------------------blogs 2nd section ends------------------------------ -->
-    <!-- ----------------------------blog 3rd section starts------------------------------- -->
-     <section id="blogs">
-      <div class="container bg-dark mt-5">
-        <div class="row">
-          <div class="col-lg-6 col-md-4 col-sm-8 col-12">
-            <div class="text-light mt-5">
-              <h2 class="d-flex justify-content-center">SUBSCRIBE US NOW</h2>
-              <P class="p-3">Get latest news, updates and deals directly mailed to your inbox.</P>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-4 col-sm-8 col-12">
-           <div class="input-item">
-            <input class="inp-text" type="text" placeholder="Your email address here"><BR>
-            <button class="inp-btn">SUBSCRIBE</button>
-           </div>
-          </div>
-        </div>
-      </div>
-     </section>
-    <!-- ----------------------------blog 3rd section ends------------------------------- -->
-     <!-- ----------------------------blog insta section starts------------------------------- -->
     <section id="blogs">
       <div class="container mt-5">
-        <h2 class="d-flex justify-content-center">SHOP OUR INSTA</h2>
-        <div class="row">
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/insta_item/insta-item1.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/insta_item/insta-item2.jpg" alt="" height="195px">
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/insta_item/insta-item3.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/insta_item/insta-item4.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/insta_item/insta-item5.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-4">
-            <div class="card card-item">
-              <img src="images/products/product-item3.jpg" alt="" height="195px">
-            </div>
-          </div>
-        </div>
+       <div class="d-flex justify-content-between">
+         <P class="headings mb-3">LATEST POSTS</P>
+         <p class="mt-3"><a href="#" class="text-dark">READ BLOG</a></p>
+         </div>
+         <div class="row mt-5">
+           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+             <div class="card border-0" style="width: 14rem;">
+               <div class="image-container">
+                 <img src="images/blogs/post-item1.jpg" alt="" class="img-fluid">
+               <div class="card-text">
+                 <p class="text-secondary">Feb 22, 2023 - GADGETS</p>
+                 <p class="blog-text">GET SOME COOL GADGETS IN
+                   2023</p>
+               </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+             <div class="card border-0" style="width: 14rem;">
+               <div class="image-container">
+                 <img src="images/blogs/post-item2.jpg" alt="" class="img-fluid">
+               <div class="card-text">
+                 <p class="text-secondary">Feb 25, 2023 - TECHNOLOGY</p>
+                 <p class="blog-text">TECHNOLOGY HACK YOU WON’T
+                   GET</p>
+               </div>
+               </div>
+             </div>
+           </div>
+          <div class="col-lg-4  col-md-6 col-sm-12 col-12">
+             <div class="card border-0" style="width: 14rem;">
+               <div class="image-container">
+                 <img src="images/blogs/insta-item5.jpg" alt="" class="img-fluid" height="20px">
+               <div class="card-text">
+                 <p class="text-secondary">Feb 22, 2023 - CAMERAS</p>
+                 <p class="blog-text">TOP 10 SMALL CAMERAS IN THE
+                   WORLD</p>
+               </div>
+               </div>
+             </div>
+           </div>
+         </div>
       </div>
     </section>
-    <!-- ------------------insta sections ends--------------------------- -->
+    <!-- ----------------------------blog 2nd section starts----------------------------- -->
+    <section id="blogs">
+      <div class="container-fluid customer-section">
+       <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+                 <div class="carousel-cust">
+                   <img src="images/doublequtes.png" alt="" class="carousel-img" height="120px">
+                   <p class="carousel-text">"Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi".</p>
+                   <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                   <p class="d-flex justify-content-center">EMMA CHAMBERLIN</p>
+                 </div>
+           </div>
+           <div class="carousel-item">
+                <div class="carousel-cust">
+                   <img src="images/doublequtes.png" alt="" class="carousel-img" height="120px">
+                   <p class="carousel-text">"A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”.</p>
+                   <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                   <p class="d-flex justify-content-center">JENNIE ROSE</p>
+                 </div>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+      </div>
+    </section>
+   <!-- ------------------------------blogs 2nd section ends------------------------------ -->
+   <!-- ----------------------------blog 3rd section starts------------------------------- -->
+    <section id="blogs">
+     <div class="container bg-dark mt-5">
+       <div class="row">
+         <div class="col-lg-6  col-md-6 col-sm-12 col-12">
+           <div class="text-light mt-5">
+             <h2 class="d-flex justify-content-center">SUBSCRIBE US NOW</h2>
+             <P class="p-3">Get latest news, updates and deals directly mailed to your inbox.</P>
+           </div>
+         </div>
+         <div class="col-lg-6  col-md-6 col-sm-12 col-12">
+          <div class="input-item">
+           <input class="inp-text" type="text" placeholder="Your email address here"><BR>
+           <button class="inp-btn">SUBSCRIBE</button>
+          </div>
+         </div>
+       </div>
+     </div>
+    </section>
+   <!-- ----------------------------blog 3rd section ends------------------------------- -->
+    <!-- ----------------------------blog insta section starts------------------------------- -->
+   <section id="blogs">
+     <div class="container mt-5">
+       <h2 class="d-flex justify-content-center">SHOP OUR INSTA</h2>
+       <div class="row">
+         <div class="col-lg-2  col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/insta_item/insta-item1.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-lg-2  col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/insta_item/insta-item2.jpg" alt="" height="195px">
+           </div>
+         </div>
+         <div class="col-lg-2  col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/insta_item/insta-item3.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-lg-2   col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/insta_item/insta-item4.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-lg-2  col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/insta_item/insta-item5.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-lg-2  col-md-6 col-sm-12 col-12 mt-4">
+           <div class="card card-item">
+             <img src="images/products/product-item3.jpg" alt="" height="195px">
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- ------------------insta sections ends--------------------------- -->
 
-    <!-- ---------------------------footer starts------------------------------- -->
-    <section id="contact">
-      <div class="container container-footer mt-5">
-        <div class="row">
-          <div class="col-lg-3  col-md-4 col-sm-6 col-12">
-              <div class="card border-0">
-                <div class="card-img">
-                  <img src="images/main-logo.png" alt="">
-                  <div class="card-text">
-                    <p class="text-secondary">Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.</p>
-                    <p class="text-secondary d-flex justify-content-between"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-youtube"></i></p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-3  col-md-4 col-sm-6 col-12">
-            <div class="card border-0">
-              <div class="card-title">
-                <h5>QUICK LINKS</h5>
-                <p>HOME</p>
-                <P>ABOUT</P>
-                <P>SHOP</P>
-                <p>BLOGS</p>
-                <p>CONTACT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3  col-md-4 col-sm-6 col-12">
-            <div class="card border-0">
-              <div class="card-title">
-                <h5>HELP & INFO HELP</h5>
-                <p>TRACK YOUR ORDER</p>
-                <P>RETURNS POLICIES</P>
-                <P>SHIPING + DELIVERY</P>
-                <p>CONTACT US</p>
-                <p>FAQS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3  col-md-4 col-sm-6 col-12">
-            <div class="card border-0">
-              <div class="card-title">
-                <h5>CONTACT US</h5>
-                <p class="text-secondary">Do you have any queries or suggestions?</p>
-                <P>yourinfo@gmail.com</P>
-                <p class="text-secondary">If you need support? Just give us a call.</p> +55 111 222 333 44
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4   col-md-6 col-sm-8 col-12">
-            <span class="text-secondary">We ship with:
-              <img src="images/dhl.png" alt="">
-              <img src="images/shippingcard.png" alt=""></span>
-          </div>
-          <div class="col-lg-4   col-md-6 col-sm-8 col-12">
-            <span class="text-secondary">Payment options:
-              <img src="images/visa.jpg" alt="">
-              <img src="images/mastercard.jpg" alt="">
-              <img src="images/paypal.jpg" alt="">
-            </span>
-          </div>
-          <div class="col-lg-4   col-md-6 col-sm-8 col-12">
-            <p class="text-secondary">
-              <i class="fa-regular fa-copyright"></i>Copyright 2023 MiniStore. Design by</p>
-              <p>templatesJungle</p><span class="text-secondary">distributed by</span>
-              <p>themewagon</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ---------------------------footer ends------------------------------- -->
+   <!-- ---------------------------footer starts------------------------------- -->
+   <section id="contact">
+     <div class="container container-footer mt-5">
+       <div class="row">
+         <div class="col-lg-3   col-md-6 col-sm-12 col-12">
+             <div class="card border-0">
+               <div class="card-img">
+                 <img src="images/main-logo.png" alt="">
+                 <div class="card-text">
+                   <p class="text-secondary">Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.</p>
+                   <p class="text-secondary d-flex justify-content-between"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-youtube"></i></p>
+                 </div>
+               </div>
+             </div>
+         </div>
+         <div class="col-lg-3  col-md-6 col-sm-12 col-12">
+           <div class="card border-0">
+             <div class="card-title">
+               <h5>QUICK LINKS</h5>
+               <p>HOME</p>
+               <P>ABOUT</P>
+               <P>SHOP</P>
+               <p>BLOGS</p>
+               <p>CONTACT</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3   col-md-6 col-sm-12 col-12">
+           <div class="card border-0">
+             <div class="card-title">
+               <h5>HELP & INFO HELP</h5>
+               <p>TRACK YOUR ORDER</p>
+               <P>RETURNS POLICIES</P>
+               <P>SHIPING + DELIVERY</P>
+               <p>CONTACT US</p>
+               <p>FAQS</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3  col-md-6 col-sm-12 col-12">
+           <div class="card border-0">
+             <div class="card-title">
+               <h5>CONTACT US</h5>
+               <p class="text-secondary">Do you have any queries or suggestions?</p>
+               <P>yourinfo@gmail.com</P>
+               <p class="text-secondary">If you need support? Just give us a call.</p> +55 111 222 333 44
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr>
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-4  col-md-6 col-sm-12 col-12">
+           <span class="text-secondary">We ship with:
+             <img src="images/dhl.png" alt="">
+             <img src="images/shippingcard.png" alt=""></span>
+         </div>
+         <div class="col-lg-4  col-md-6 col-sm-12 col-12">
+           <span class="text-secondary">Payment options:
+             <img src="images/visa.jpg" alt="">
+             <img src="images/mastercard.jpg" alt="">
+             <img src="images/paypal.jpg" alt="">
+           </span>
+         </div>
+         <div class="col-lg-4   col-md-6 col-sm-8 col-12">
+           <p class="text-secondary">
+             <i class="fa-regular fa-copyright"></i>Copyright 2023 MiniStore. Design by</p>
+             <p>templatesJungle</p><span class="text-secondary">distributed by</span>
+             <p>themewagon</p>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- ---------------------------footer ends------------------------------- -->
 </body>
 </html>

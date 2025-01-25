@@ -15,3 +15,4 @@ This is the source code for MiniStore, a responsive e-commerce template.
 - Responsive design
 - Organized code structure
 - Hosted on GitHub Pages
+-
