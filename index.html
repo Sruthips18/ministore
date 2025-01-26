@@ -18,54 +18,79 @@
 </head>
 <body>
     <!-- ------------------------------navbar section start --------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky p-3 mx-100" style="top: 0; z-index: 1200;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky p-3 mx-100" style="top: 0; z-index: 1200;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- Navbar Brand -->
+          <a class="navbar-brand" href="#">
+            <img src="images/main-logo.png" alt="">
+          </a>
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+            <!-- <svg class="navbar-toggler-icon">
+              <use xlink:href="#navbar-toggler-icon"></use>
+            </svg> -->
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mobile-products">PRODUCTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#watches">WATCHES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sale">SALE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#blogs">BLOGS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PAGES
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">ABOUT</a></li>
-                  <li><a class="dropdown-item" href="#">BLOGS</a></li>
-                  <li><a class="dropdown-item" href="#">SHOP</a></li>
-                  <li><a class="dropdown-item" href="#">CART</a></li>
-                  <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
-                  <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
-                  <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
-                  <li><a class="dropdown-item" href="#contact">CONTACT</a></li>
-                </ul>
-              </li>
-            </ul>
+          <!-- Offcanvas -->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/main-logo.png" alt=""></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mobile-products">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#watches">WATCHES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sale">SALE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blogs">BLOGS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                    <li><a class="dropdown-item" href="#">BLOGS</a></li>
+                    <li><a class="dropdown-item" href="#">SHOP</a></li>
+                    <li><a class="dropdown-item" href="#">CART</a></li>
+                    <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                    <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                    <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                    <li><a class="dropdown-item" href="#contact">CONTACT</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="nav-icons d-flex justify-content-between">
+                <ul class="d-flex justify-content-end list-unstyled">
+                  <li class="search">
+                    <a href="" class="nav-link nav-icons" id="navbarNavDropdown" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#home" class="nav-link nav-icons"  id="navbarNavDropdown"  title="Profile"><i class="fa-regular fa-user"></i></a>
+                  </li>
+                <li>
+                  <a href="" class="nav-link nav-icons"  id="navbarNavDropdown" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+              </ul>
+              </div>
+            </div>
           </div>
-          <a href="" class="nav-link nav-icons"  id="navbarNavDropdown" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a href="#home" class="nav-link nav-icons"  id="navbarNavDropdown"  title="Profile"><i class="fa-regular fa-user"></i></a>
-          <a href="" class="nav-link nav-icons"  id="navbarNavDropdown" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
       </nav>
+      
     <!-- ------------------------------navbar section ends --------------------------------- -->
     <!-- ------------------------------Home Start------------------------------------------- -->
     <div class="container-fluid home-page mx-auto">

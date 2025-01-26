@@ -20,7 +20,7 @@ body {
 .nav-icons{
     padding-right: 35px;
 }
-.navbar a {
+.navbar-nav a {
     text-decoration: none;
     color: rgb(86, 81, 81);
     padding: 8px 15px;
@@ -28,16 +28,21 @@ body {
     font-size: 15px;
   }
   /* Hover effect */
-.navbar a:hover {
+.navbar-nav a:hover {
     color : rgb(124, 208, 212); /* Change text color to blue on hover */
 }
-.navbar a:active{
+.navbar-nav a:active{
     color: rgb(124, 208, 212); /* Change text color to blue on hover */
 }
 .dropdown-menu a:active{
     background-color: blue;
 }
 
+.navbar-toggler {
+    border: none; 
+    outline: none;
+}
+  
 /* home */
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
